@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 632
-    y: 270
+    x: 322
+    y: 229
     width: 1920
     height: 997
   m_ShowMode: 4
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 87
+  controlID: 17
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 16
+  controlID: 101
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 17
+  controlID: 102
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -297,8 +297,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 632
-    y: 861
+    x: 322
+    y: 820
     width: 1465
     height: 365
   m_ViewDataDictionary: {fileID: 0}
@@ -326,14 +326,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\Downloads\space_double_jump\space_double_jump
+  m_LastProjectPath: D:\Documents\GitHub\Unity-Basics\space_double_jump
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 9c520000
-    m_LastClickedID: 21148
-    m_ExpandedIDs: 000000009c52000000ca9a3bffffff7f
+    m_SelectedIDs: a2520000
+    m_LastClickedID: 21154
+    m_ExpandedIDs: 00000000a252000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -361,7 +361,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000009c520000
+    m_ExpandedIDs: 00000000a2520000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -438,8 +438,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2098
-    y: 300
+    x: 1788
+    y: 259
     width: 453
     height: 926
   m_ViewDataDictionary: {fileID: 0}
@@ -480,8 +480,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 632
-    y: 300
+    x: 322
+    y: 259
     width: 362
     height: 540
   m_ViewDataDictionary: {fileID: 0}
@@ -493,7 +493,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: caf7ffff10f8ffff12f8ffffeaf8ffff32f9ffff08faffff30fbffff
+      m_ExpandedIDs: 1ef5ffff64f5ffff66f5ffff36f6ffff7cf6ffff7ef6ffff5af7ffffa2f7ffffa4f7ffff80f8ffffc8f8ffff9ef9ffff28fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -538,8 +538,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 995
-    y: 300
+    x: 685
+    y: 259
     width: 1101
     height: 540
   m_ViewDataDictionary: {fileID: 0}
