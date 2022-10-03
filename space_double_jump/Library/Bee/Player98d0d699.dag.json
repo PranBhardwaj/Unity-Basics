@@ -316,13 +316,7 @@
         308,
         309,
         310,
-        311,
-        312,
-        313,
-        314,
-        315,
-        316,
-        317
+        311
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 0
@@ -10895,106 +10889,32 @@
       "DebugActionIndex": 291
     },
     {
-      "Annotation": "7z Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked",
-      "Action": "\"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Tools/7z.exe\" a -tgzip \"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked\" \"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js\"",
+      "Annotation": "CopyFiles D:/Documents/GitHub/Unity-Basics/build_triplejump_webgl/Build/build_triplejump_webgl.framework.js",
+      "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js"
       ],
       "Outputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked"
+        "D:/Documents/GitHub/Unity-Basics/build_triplejump_webgl/Build/build_triplejump_webgl.framework.js"
       ],
       "ToBuildDependencies": [
         291
       ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
       "DebugActionIndex": 292
     },
     {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/build_triplejump_webgl.framework.js.unityweb_2vau.info",
-      "ActionType": "WriteTextFile",
-      "WriteTextFilePayload": "{\"System.Object\":null,\"Bee.TundraBackend.CSharpActionInvocationInformation\":{\"typeFullName\":\"WebGLPlayerBuildProgram.GzipMarker\",\"methodName\":\"Run\",\"assemblyLocation\":\"C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2021.3.11f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\WebGLSupport\\\\WebGLPlayerBuildProgram.exe\",\"targets\":[\"D:/Documents/GitHub/Unity-Basics/build_triplejump_webgl/Build/build_triplejump_webgl.framework.js.unityweb\"],\"inputs\":[\"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked\"],\"targetDirectories\":[]}}",
-      "Inputs": [],
-      "Outputs": [
-        "Library/Bee/artifacts/csharpactions/build_triplejump_webgl.framework.js.unityweb_2vau.info"
-      ],
-      "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 293
-    },
-    {
-      "Annotation": "GzipMarker D:/Documents/GitHub/Unity-Basics/build_triplejump_webgl/Build/build_triplejump_webgl.framework.js.unityweb",
-      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.11f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.11f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\WebGLPlayerBuildProgram.exe\" \"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\build_triplejump_webgl.framework.js.unityweb_2vau.info\"",
-      "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked",
-        "Library/Bee/artifacts/csharpactions/build_triplejump_webgl.framework.js.unityweb_2vau.info",
-        "C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset",
-        "C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
-        "C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.pdb",
-        "C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
-        "C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.pdb",
-        "C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
-      ],
-      "Outputs": [
-        "D:/Documents/GitHub/Unity-Basics/build_triplejump_webgl/Build/build_triplejump_webgl.framework.js.unityweb"
-      ],
-      "ToBuildDependencies": [
-        292,
-        293
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 294
-    },
-    {
-      "Annotation": "7z Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked",
-      "Action": "\"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Tools/7z.exe\" a -tgzip \"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked\" \"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm\"",
+      "Annotation": "CopyFiles D:/Documents/GitHub/Unity-Basics/build_triplejump_webgl/Build/build_triplejump_webgl.wasm",
+      "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm"
       ],
       "Outputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked"
+        "D:/Documents/GitHub/Unity-Basics/build_triplejump_webgl/Build/build_triplejump_webgl.wasm"
       ],
       "ToBuildDependencies": [
         289
       ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 295
-    },
-    {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/build_triplejump_webgl.wasm.unityweb_3oa9.info",
-      "ActionType": "WriteTextFile",
-      "WriteTextFilePayload": "{\"System.Object\":null,\"Bee.TundraBackend.CSharpActionInvocationInformation\":{\"typeFullName\":\"WebGLPlayerBuildProgram.GzipMarker\",\"methodName\":\"Run\",\"assemblyLocation\":\"C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2021.3.11f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\WebGLSupport\\\\WebGLPlayerBuildProgram.exe\",\"targets\":[\"D:/Documents/GitHub/Unity-Basics/build_triplejump_webgl/Build/build_triplejump_webgl.wasm.unityweb\"],\"inputs\":[\"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked\"],\"targetDirectories\":[]}}",
-      "Inputs": [],
-      "Outputs": [
-        "Library/Bee/artifacts/csharpactions/build_triplejump_webgl.wasm.unityweb_3oa9.info"
-      ],
-      "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 296
-    },
-    {
-      "Annotation": "GzipMarker D:/Documents/GitHub/Unity-Basics/build_triplejump_webgl/Build/build_triplejump_webgl.wasm.unityweb",
-      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.11f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.11f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\WebGLPlayerBuildProgram.exe\" \"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\build_triplejump_webgl.wasm.unityweb_3oa9.info\"",
-      "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked",
-        "Library/Bee/artifacts/csharpactions/build_triplejump_webgl.wasm.unityweb_3oa9.info",
-        "C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset",
-        "C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
-        "C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.pdb",
-        "C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
-        "C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.pdb",
-        "C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
-      ],
-      "Outputs": [
-        "D:/Documents/GitHub/Unity-Basics/build_triplejump_webgl/Build/build_triplejump_webgl.wasm.unityweb"
-      ],
-      "ToBuildDependencies": [
-        295,
-        296
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 297
+      "DebugActionIndex": 293
     },
     {
       "Annotation": "CopyFiles Temp/EditorBuildOutput/UnityLinkerToEditorData.json",
@@ -11008,7 +10928,7 @@
       "ToBuildDependencies": [
         2
       ],
-      "DebugActionIndex": 298
+      "DebugActionIndex": 294
     },
     {
       "Annotation": "CopyFiles Temp/EditorBuildOutput/MethodMap.tsv",
@@ -11022,7 +10942,7 @@
       "ToBuildDependencies": [
         3
       ],
-      "DebugActionIndex": 299
+      "DebugActionIndex": 295
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info",
@@ -11033,7 +10953,7 @@
         "Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 300
+      "DebugActionIndex": 296
     },
     {
       "Annotation": "Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data",
@@ -11059,66 +10979,29 @@
       ],
       "ToBuildDependencies": [
         3,
-        300
+        296
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 301
+      "DebugActionIndex": 297
     },
     {
-      "Annotation": "7z Library/Bee/artifacts/WebGL/webgl.data.unmarked",
-      "Action": "\"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Tools/7z.exe\" a -tgzip \"Library/Bee/artifacts/WebGL/webgl.data.unmarked\" \"Library/Bee/artifacts/WebGL/webgl.data\"",
+      "Annotation": "CopyFiles D:/Documents/GitHub/Unity-Basics/build_triplejump_webgl/Build/build_triplejump_webgl.data",
+      "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/WebGL/webgl.data"
       ],
       "Outputs": [
-        "Library/Bee/artifacts/WebGL/webgl.data.unmarked"
+        "D:/Documents/GitHub/Unity-Basics/build_triplejump_webgl/Build/build_triplejump_webgl.data"
       ],
       "ToBuildDependencies": [
-        301
+        297
       ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 302
-    },
-    {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/build_triplejump_webgl.data.unityweb_xk9s.info",
-      "ActionType": "WriteTextFile",
-      "WriteTextFilePayload": "{\"System.Object\":null,\"Bee.TundraBackend.CSharpActionInvocationInformation\":{\"typeFullName\":\"WebGLPlayerBuildProgram.GzipMarker\",\"methodName\":\"Run\",\"assemblyLocation\":\"C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2021.3.11f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\WebGLSupport\\\\WebGLPlayerBuildProgram.exe\",\"targets\":[\"D:/Documents/GitHub/Unity-Basics/build_triplejump_webgl/Build/build_triplejump_webgl.data.unityweb\"],\"inputs\":[\"Library/Bee/artifacts/WebGL/webgl.data.unmarked\"],\"targetDirectories\":[]}}",
-      "Inputs": [],
-      "Outputs": [
-        "Library/Bee/artifacts/csharpactions/build_triplejump_webgl.data.unityweb_xk9s.info"
-      ],
-      "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 303
-    },
-    {
-      "Annotation": "GzipMarker D:/Documents/GitHub/Unity-Basics/build_triplejump_webgl/Build/build_triplejump_webgl.data.unityweb",
-      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.11f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.11f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\WebGLPlayerBuildProgram.exe\" \"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\build_triplejump_webgl.data.unityweb_xk9s.info\"",
-      "Inputs": [
-        "Library/Bee/artifacts/WebGL/webgl.data.unmarked",
-        "Library/Bee/artifacts/csharpactions/build_triplejump_webgl.data.unityweb_xk9s.info",
-        "C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset",
-        "C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
-        "C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.pdb",
-        "C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
-        "C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.pdb",
-        "C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
-      ],
-      "Outputs": [
-        "D:/Documents/GitHub/Unity-Basics/build_triplejump_webgl/Build/build_triplejump_webgl.data.unityweb"
-      ],
-      "ToBuildDependencies": [
-        302,
-        303
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 304
+      "DebugActionIndex": 298
     },
     {
       "Annotation": "PreprocessJS D:/Documents/GitHub/Unity-Basics/build_triplejump_webgl/Build/build_triplejump_webgl.loader.js",
-      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='UnityLoader/UnityLoader.js'\"  \"locals.outputPath='D\\x3a/Documents/GitHub/Unity\\x2dBasics/build\\x5ftriplejump\\x5fwebgl/Build/build\\x5ftriplejump\\x5fwebgl.loader.js'\"  \"locals.minifyOutput=true\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='100 Mechanics \\x2d Space Bar to Jump'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='build\\x5ftriplejump\\x5fwebgl.data.unityweb'\" \"FRAMEWORK_FILENAME='build\\x5ftriplejump\\x5fwebgl.framework.js.unityweb'\" \"CODE_FILENAME='build\\x5ftriplejump\\x5fwebgl.wasm.unityweb'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=true\" \"USE_WEBGL_2_0=true\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK='Gzip'\" \"TOTAL_MEMORY=268435456\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2021.3.11f1'\" \"LOADER_FILENAME='build\\x5ftriplejump\\x5fwebgl.loader.js'\"",
+      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='UnityLoader/UnityLoader.js'\"  \"locals.outputPath='D\\x3a/Documents/GitHub/Unity\\x2dBasics/build\\x5ftriplejump\\x5fwebgl/Build/build\\x5ftriplejump\\x5fwebgl.loader.js'\"  \"locals.minifyOutput=true\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='100 Mechanics \\x2d Space Bar to Jump'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='build\\x5ftriplejump\\x5fwebgl.data'\" \"FRAMEWORK_FILENAME='build\\x5ftriplejump\\x5fwebgl.framework.js'\" \"CODE_FILENAME='build\\x5ftriplejump\\x5fwebgl.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=true\" \"USE_WEBGL_2_0=true\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK='Disabled'\" \"TOTAL_MEMORY=268435456\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2021.3.11f1'\" \"LOADER_FILENAME='build\\x5ftriplejump\\x5fwebgl.loader.js'\"",
       "Inputs": [
         "UnityLoader/UnityLoader.js"
       ],
@@ -11126,11 +11009,11 @@
         "D:/Documents/GitHub/Unity-Basics/build_triplejump_webgl/Build/build_triplejump_webgl.loader.js"
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 305
+      "DebugActionIndex": 299
     },
     {
       "Annotation": "PreprocessJS D:/Documents/GitHub/Unity-Basics/build_triplejump_webgl/index.html",
-      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='C\\x3a/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html'\"  \"locals.outputPath='D\\x3a/Documents/GitHub/Unity\\x2dBasics/build\\x5ftriplejump\\x5fwebgl/index.html'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='100 Mechanics \\x2d Space Bar to Jump'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='build\\x5ftriplejump\\x5fwebgl.data.unityweb'\" \"FRAMEWORK_FILENAME='build\\x5ftriplejump\\x5fwebgl.framework.js.unityweb'\" \"CODE_FILENAME='build\\x5ftriplejump\\x5fwebgl.wasm.unityweb'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=true\" \"USE_WEBGL_2_0=true\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK='Gzip'\" \"TOTAL_MEMORY=268435456\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2021.3.11f1'\" \"LOADER_FILENAME='build\\x5ftriplejump\\x5fwebgl.loader.js'\"",
+      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='C\\x3a/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html'\"  \"locals.outputPath='D\\x3a/Documents/GitHub/Unity\\x2dBasics/build\\x5ftriplejump\\x5fwebgl/index.html'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='100 Mechanics \\x2d Space Bar to Jump'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='build\\x5ftriplejump\\x5fwebgl.data'\" \"FRAMEWORK_FILENAME='build\\x5ftriplejump\\x5fwebgl.framework.js'\" \"CODE_FILENAME='build\\x5ftriplejump\\x5fwebgl.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=true\" \"USE_WEBGL_2_0=true\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK='Disabled'\" \"TOTAL_MEMORY=268435456\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2021.3.11f1'\" \"LOADER_FILENAME='build\\x5ftriplejump\\x5fwebgl.loader.js'\"",
       "Inputs": [
         "C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html"
       ],
@@ -11138,7 +11021,7 @@
         "D:/Documents/GitHub/Unity-Basics/build_triplejump_webgl/index.html"
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 306
+      "DebugActionIndex": 300
     },
     {
       "Annotation": "CopyFiles D:/Documents/GitHub/Unity-Basics/build_triplejump_webgl/TemplateData/favicon.ico",
@@ -11149,7 +11032,7 @@
       "Outputs": [
         "D:/Documents/GitHub/Unity-Basics/build_triplejump_webgl/TemplateData/favicon.ico"
       ],
-      "DebugActionIndex": 307
+      "DebugActionIndex": 301
     },
     {
       "Annotation": "CopyFiles D:/Documents/GitHub/Unity-Basics/build_triplejump_webgl/TemplateData/fullscreen-button.png",
@@ -11160,7 +11043,7 @@
       "Outputs": [
         "D:/Documents/GitHub/Unity-Basics/build_triplejump_webgl/TemplateData/fullscreen-button.png"
       ],
-      "DebugActionIndex": 308
+      "DebugActionIndex": 302
     },
     {
       "Annotation": "CopyFiles D:/Documents/GitHub/Unity-Basics/build_triplejump_webgl/TemplateData/progress-bar-empty-dark.png",
@@ -11171,7 +11054,7 @@
       "Outputs": [
         "D:/Documents/GitHub/Unity-Basics/build_triplejump_webgl/TemplateData/progress-bar-empty-dark.png"
       ],
-      "DebugActionIndex": 309
+      "DebugActionIndex": 303
     },
     {
       "Annotation": "CopyFiles D:/Documents/GitHub/Unity-Basics/build_triplejump_webgl/TemplateData/progress-bar-empty-light.png",
@@ -11182,7 +11065,7 @@
       "Outputs": [
         "D:/Documents/GitHub/Unity-Basics/build_triplejump_webgl/TemplateData/progress-bar-empty-light.png"
       ],
-      "DebugActionIndex": 310
+      "DebugActionIndex": 304
     },
     {
       "Annotation": "CopyFiles D:/Documents/GitHub/Unity-Basics/build_triplejump_webgl/TemplateData/progress-bar-full-dark.png",
@@ -11193,7 +11076,7 @@
       "Outputs": [
         "D:/Documents/GitHub/Unity-Basics/build_triplejump_webgl/TemplateData/progress-bar-full-dark.png"
       ],
-      "DebugActionIndex": 311
+      "DebugActionIndex": 305
     },
     {
       "Annotation": "CopyFiles D:/Documents/GitHub/Unity-Basics/build_triplejump_webgl/TemplateData/progress-bar-full-light.png",
@@ -11204,11 +11087,11 @@
       "Outputs": [
         "D:/Documents/GitHub/Unity-Basics/build_triplejump_webgl/TemplateData/progress-bar-full-light.png"
       ],
-      "DebugActionIndex": 312
+      "DebugActionIndex": 306
     },
     {
       "Annotation": "PreprocessJS D:/Documents/GitHub/Unity-Basics/build_triplejump_webgl/TemplateData/style.css",
-      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='C\\x3a/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css'\"  \"locals.outputPath='D\\x3a/Documents/GitHub/Unity\\x2dBasics/build\\x5ftriplejump\\x5fwebgl/TemplateData/style.css'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='100 Mechanics \\x2d Space Bar to Jump'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='build\\x5ftriplejump\\x5fwebgl.data.unityweb'\" \"FRAMEWORK_FILENAME='build\\x5ftriplejump\\x5fwebgl.framework.js.unityweb'\" \"CODE_FILENAME='build\\x5ftriplejump\\x5fwebgl.wasm.unityweb'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=true\" \"USE_WEBGL_2_0=true\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK='Gzip'\" \"TOTAL_MEMORY=268435456\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2021.3.11f1'\" \"LOADER_FILENAME='build\\x5ftriplejump\\x5fwebgl.loader.js'\"",
+      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='C\\x3a/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css'\"  \"locals.outputPath='D\\x3a/Documents/GitHub/Unity\\x2dBasics/build\\x5ftriplejump\\x5fwebgl/TemplateData/style.css'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='100 Mechanics \\x2d Space Bar to Jump'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='build\\x5ftriplejump\\x5fwebgl.data'\" \"FRAMEWORK_FILENAME='build\\x5ftriplejump\\x5fwebgl.framework.js'\" \"CODE_FILENAME='build\\x5ftriplejump\\x5fwebgl.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=true\" \"USE_WEBGL_2_0=true\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK='Disabled'\" \"TOTAL_MEMORY=268435456\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2021.3.11f1'\" \"LOADER_FILENAME='build\\x5ftriplejump\\x5fwebgl.loader.js'\"",
       "Inputs": [
         "C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css"
       ],
@@ -11216,7 +11099,7 @@
         "D:/Documents/GitHub/Unity-Basics/build_triplejump_webgl/TemplateData/style.css"
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 313
+      "DebugActionIndex": 307
     },
     {
       "Annotation": "CopyFiles D:/Documents/GitHub/Unity-Basics/build_triplejump_webgl/TemplateData/unity-logo-dark.png",
@@ -11227,7 +11110,7 @@
       "Outputs": [
         "D:/Documents/GitHub/Unity-Basics/build_triplejump_webgl/TemplateData/unity-logo-dark.png"
       ],
-      "DebugActionIndex": 314
+      "DebugActionIndex": 308
     },
     {
       "Annotation": "CopyFiles D:/Documents/GitHub/Unity-Basics/build_triplejump_webgl/TemplateData/unity-logo-light.png",
@@ -11238,7 +11121,7 @@
       "Outputs": [
         "D:/Documents/GitHub/Unity-Basics/build_triplejump_webgl/TemplateData/unity-logo-light.png"
       ],
-      "DebugActionIndex": 315
+      "DebugActionIndex": 309
     },
     {
       "Annotation": "CopyFiles D:/Documents/GitHub/Unity-Basics/build_triplejump_webgl/TemplateData/webgl-logo.png",
@@ -11249,7 +11132,7 @@
       "Outputs": [
         "D:/Documents/GitHub/Unity-Basics/build_triplejump_webgl/TemplateData/webgl-logo.png"
       ],
-      "DebugActionIndex": 316
+      "DebugActionIndex": 310
     },
     {
       "Annotation": "Player",
@@ -11260,26 +11143,26 @@
         1,
         2,
         285,
+        292,
+        293,
         294,
-        297,
+        295,
         298,
         299,
+        300,
+        301,
+        302,
+        303,
         304,
         305,
         306,
         307,
         308,
         309,
-        310,
-        311,
-        312,
-        313,
-        314,
-        315,
-        316
+        310
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 317
+      "DebugActionIndex": 311
     }
   ],
   "FileSignatures": [
@@ -11648,7 +11531,7 @@
   ],
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 317
+          "Player": 311
         }
 ,  "DefaultNodes": [
     0
